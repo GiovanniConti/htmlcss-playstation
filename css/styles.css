@@ -1,8 +1,44 @@
+
+
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+button{
+    color: white;
+    padding: 10px;
+    border: 0;
+}
+
+.btn-hero{
+    background-color: #CD3D0F;
+    margin-bottom: 75px;
+}
+
 .logo-sony{
     width: 100px;
-    padding: 10px;
+    padding: 12px;
 }
 
 .navbar-light .navbar-nav .nav-link{
     color: black;
+}
+
+.section-hero{
+    background-image: url(..//img/jumbo-bg.png);
+    width: 100%;
+    background-position: center;
+    height: 660px;
+    padding-top: 280px;
+    /* padding-left: 10px; */
+}
+
+.returnal-img-title{
+    width: 320px;
+    margin-bottom: 30px;
 }
