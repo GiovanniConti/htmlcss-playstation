@@ -7,6 +7,7 @@ h2{
 
 p{
     font-size: 1.3rem;
+    margin-bottom: 30px;
 }
 
 button{
@@ -17,7 +18,7 @@ button{
 
 .btn-hero{
     background-color: #CD3D0F;
-    margin-bottom: 75px;
+    margin-bottom: 60px;
 }
 
 .logo-sony{
@@ -33,7 +34,6 @@ button{
     background-image: url(..//img/jumbo-bg.png);
     width: 100%;
     background-position: center;
-    height: 660px;
     padding-top: 280px;
     /* padding-left: 10px; */
 }
