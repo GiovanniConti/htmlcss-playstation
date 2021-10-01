@@ -128,3 +128,14 @@ body{
     border-color: #D9DADC;
 }
 
+@media screen and (max-width: 767px){
+    .section-ps-plus,
+    .section-ps-now{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .hidden-sm{
+        display: none;
+    }
+}
