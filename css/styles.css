@@ -1,25 +1,8 @@
-
-
-h2{
-    font-size: 2.5rem;
-    margin-bottom: 30px;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-    font-size: 1.3rem;
-    margin-bottom: 30px;
-}
-
-button{
-    color: white;
-    padding: 10px;
-    border: 0;
-}
-
-.btn-hero{
-    background-color: #CD3D0F;
-    margin-bottom: 60px;
-}
+/* Header elements  */
 
 .logo-sony{
     width: 100px;
@@ -30,15 +13,118 @@ button{
     color: black;
 }
 
+/* Section Styles */
+
+.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-medium {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-large {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 .section-hero{
     background-image: url(..//img/jumbo-bg.png);
     width: 100%;
     background-position: center;
-    padding-top: 280px;
-    /* padding-left: 10px; */
+    padding-top: 300px;
+    background-size: cover;
 }
 
-.returnal-img-title{
-    width: 320px;
+.section-it-takes-two{
+    background-image: url(..//img/it-takes-two-hero-banner-desktop.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-nuove-uscite{
+    background-color: #1F1F1F;
+}
+
+.section-ps-plus{
+    background-color: #BEBCBB;
+}
+
+.section-ps-now{
+    background-color: #161C3B;
+}
+
+/* Section Elements */
+
+.section-title{
+    font-size: 2.5rem;
     margin-bottom: 30px;
 }
+
+.section-text{
+    margin-bottom: 30px;
+}
+
+.section-super {
+    color: #0072ce;
+    font-size: .9rem;
+}
+
+.section-subtitle {
+    color: #727272;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.section-text-small{
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.container-socials{
+    max-width: 550px;
+    margin-top: 70px;
+}
+
+.rounded-3 {
+    border-radius: 1rem!important;
+}
+
+
+/* buttons styles */
+
+.btn{
+    border-radius: 50rem
+}
+
+.btn-darkgrey,
+.btn-darkgrey:hover{
+    color: white;
+    background-color: #363636;
+    border-color: #363636;
+}
+
+.btn-orange,
+.btn-orange:hover{
+    color: white;
+    background-color: #CD3D0F;
+    border-color: #CD3D0F;
+}
+
+.btn-blue,
+.btn-blue:hover{
+    color: white;
+    background-color: #2D64E6;
+    border-color: #2D64E6;
+}
+
+.btn-white,
+.btn-white:hover{
+    color: #2D64E6;
+    background-color: #D9DADC;
+    border-color: #D9DADC;
+}
+
