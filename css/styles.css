@@ -57,6 +57,10 @@ body{
     background-color: #161C3B;
 }
 
+.section-footer{
+    background-color: #00439c;
+}
+
 /* Section Elements */
 
 .section-title{
@@ -91,6 +95,13 @@ body{
 
 .rounded-3 {
     border-radius: 1rem!important;
+}
+
+.logo-ps-footer{
+    display: block;
+    height: 100px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 
