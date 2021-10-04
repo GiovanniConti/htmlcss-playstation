@@ -13,8 +13,33 @@ body{
     color: black;
 }
 
-.dropdown-toggle::after{
-    border: 0;
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #2D64E6;
+}
+
+.chevron-down{
+    height: 13px;
+    margin-left: 10px;
+}
+
+.chevron-hover{
+    height: 13px;
+    margin-left: 10px;
+    display: none;
+}
+
+.nav-link:hover .chevron-down{
+    display: none;
+}
+
+.nav-link:hover .chevron-hover{
+    display: inline-block;
+    animation: rotate 0.5s linear both;
+}
+
+@keyframes rotate{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(180deg);}    
 }
 
 /* Section Styles */
@@ -90,6 +115,18 @@ body{
 .section-text-small{
     font-size: .9rem;
     font-weight: bold;
+}
+
+.accessories-card{
+    opacity: 0.5;
+}
+
+.accessories-card:hover{
+    opacity: 1;
+}
+
+.accessories-card-border{
+    border-bottom: 2px solid #2D64E6;
 }
 
 .container-socials{
