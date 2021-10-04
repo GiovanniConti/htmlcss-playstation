@@ -2,6 +2,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
 /* Header elements  */
 
 .logo-sony{
@@ -11,6 +17,7 @@ body{
 
 .navbar-light .navbar-nav .nav-link{
     color: black;
+    white-space: nowrap;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
@@ -40,6 +47,54 @@ body{
 .nav-link:focus .chevron-hover{
     transform: rotate(180deg);
 }
+
+.menu-dropdown{
+    width: 100vw;
+    position: fixed;
+    top: -90px;
+    left: 0ch;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+.nav-link:focus + .menu-dropdown{
+    top: 113px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid lightgrey;
+}
+
+.menu-dropdown-card-img{
+    height: 100px;
+    padding: 10px;
+}
+
+.link-container{
+    padding: 15px 0;
+}
+
+/* .nav-link:focus + .dropdown-menu{
+}
+
+.dropdown-menu{
+    display: flex;
+    position: fixed!important;
+    justify-content: center;
+    width: 100vw;
+    top: 113px;
+    left: 0;
+    border: 0;
+    border-radius: 0;
+}
+
+.dropdown-menu-list{
+    display: flex;
+    justify-content: center;
+} */
 
 /* Section Styles */
 
@@ -144,6 +199,11 @@ body{
     border-bottom: 2px solid #2D64E6;
 }
 
+.accessories-card-img{
+    max-width: 100px;
+    padding-bottom: 15px;
+}
+
 /* styles section solcial */
 .container-socials{
     max-width: 550px;
@@ -239,5 +299,9 @@ body{
 
     .hidden-sm{
         display: none;
+    }
+
+    .accessories-card-img{
+        max-width: 150px ;
     }
 }
