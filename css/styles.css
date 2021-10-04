@@ -34,12 +34,11 @@ body{
 
 .nav-link:hover .chevron-hover{
     display: inline-block;
-    animation: rotate 0.5s linear both;
+    transition: transform .5s ease-in-out; 
 }
 
-@keyframes rotate{
-    from{transform:rotate(0deg);}
-    to{transform:rotate(180deg);}    
+.nav-link:focus .chevron-hover{
+    transform: rotate(180deg);
 }
 
 /* Section Styles */
@@ -156,28 +155,60 @@ body{
 .btn-darkgrey:hover{
     color: white;
     background-color: #363636;
-    border-color: #363636;
+    border:2px solid #363636;
+    box-shadow: 0 0 0 2px #363636;
+}
+
+.btn-darkgrey:hover{
+    border-color: white;
 }
 
 .btn-orange,
 .btn-orange:hover{
     color: white;
     background-color: #CD3D0F;
-    border-color: #CD3D0F;
+    border:2px solid #CD3D0F;
+    box-shadow: 0 0 0 2px #CD3D0F;
+}
+
+.btn-orange:hover{
+    border-color: #1F1F1F;
 }
 
 .btn-blue,
 .btn-blue:hover{
     color: white;
     background-color: #2D64E6;
-    border-color: #2D64E6;
+    border:2px solid #2D64E6;
+    box-shadow: 0 0 0 2px #2D64E6;
+}
+
+.btn-blue:hover{
+    border-color: white;
+}
+
+.btn-lightgrey,
+.btn-lightgrey:hover{
+    color: #2D64E6;
+    background-color: #D9DADC;
+    border:2px solid #D9DADC;
+    box-shadow: 0 0 0 2px #D9DADC
+}
+
+.btn-lightgrey:hover{
+    border-color: #BEBCBB;
 }
 
 .btn-white,
 .btn-white:hover{
-    color: #2D64E6;
-    background-color: #D9DADC;
-    border-color: #D9DADC;
+    color: #161C3B;
+    background-color: #ffffff;
+    border:2px solid #ffffff;
+    box-shadow: 0 0 0 2px #ffffff;
+}
+
+.btn-white:hover{
+    border-color: #161C3B;
 }
 
 @media screen and (max-width: 767px){
