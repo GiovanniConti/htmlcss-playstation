@@ -13,6 +13,10 @@ body{
     color: black;
 }
 
+.dropdown-toggle::after{
+    border: 0;
+}
+
 /* Section Styles */
 
 .section {
