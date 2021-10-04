@@ -116,6 +116,22 @@ body{
     font-weight: bold;
 }
 
+/* highlighted card and hover section Returnal and Ratchet & Clank */
+.highlighted{
+    border: 3px solid white;
+    box-shadow: 0 0 0 2px #2D64E6;
+}
+
+.translate-top{
+    transition: transform .5s ease-out;
+}
+
+.translate-top:hover{
+    transform: translateY(-10px);
+}
+
+
+/* modifiers section PS Accessories */
 .accessories-card{
     opacity: 0.5;
 }
@@ -128,6 +144,7 @@ body{
     border-bottom: 2px solid #2D64E6;
 }
 
+/* styles section solcial */
 .container-socials{
     max-width: 550px;
     margin-top: 70px;
@@ -137,6 +154,7 @@ body{
     border-radius: 1rem!important;
 }
 
+/* styles footer */
 .logo-ps-footer{
     display: block;
     height: 100px;
