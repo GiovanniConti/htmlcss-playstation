@@ -77,25 +77,6 @@ header{
     padding: 15px 0;
 }
 
-/* .nav-link:focus + .dropdown-menu{
-}
-
-.dropdown-menu{
-    display: flex;
-    position: fixed!important;
-    justify-content: center;
-    width: 100vw;
-    top: 113px;
-    left: 0;
-    border: 0;
-    border-radius: 0;
-}
-
-.dropdown-menu-list{
-    display: flex;
-    justify-content: center;
-} */
-
 /* Section Styles */
 
 .section {
