@@ -102,6 +102,10 @@ header{
     background-size: cover;
 }
 
+.section-consolePS5{
+    padding-top: 0;
+}
+
 .section-it-takes-two{
     background-image: url(..//img/it-takes-two-hero-banner-desktop.jpg);
     width: 100%;
